@@ -38,6 +38,7 @@
                 android:layout_marginTop="@dimen/_8sdp"
                 android:layout_marginEnd="@dimen/_8sdp"
                 android:hint="@string/enter_title"
+                android:textSize="@dimen/_12ssp"
                 android:inputType="textAutoComplete"
                 android:text='@={activity.title}'
                 app:passwordToggleEnabled="true" />
@@ -70,6 +71,7 @@
                 android:inputType="textMultiLine"
                 android:maxLines="5"
                 android:minLines="3"
+                android:textSize="@dimen/_12ssp"
                 android:text='@={activity.description}'
                 app:passwordToggleEnabled="true" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -87,6 +89,8 @@
             android:focusable="true"
             android:gravity="center"
             android:onClick="saveData"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12ssp"
             android:padding="@dimen/_16sdp"
             android:text="@string/save"
             android:textColor="@color/textColorButton" />

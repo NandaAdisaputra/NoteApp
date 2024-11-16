@@ -15,4 +15,5 @@
     <string name="data_successfully_save">data berhasil di simpan</string>
     <string name="description_empty_error">Description Tidak Boleh Kosong</string>
     <string name="title_empty_error">Title Tidak Boleh Kosong</string>
+    <string name="update">Update</string>
 </resources>
